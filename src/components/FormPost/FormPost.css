@@ -1,0 +1,77 @@
+.form-post {
+  color: black;
+  border: 1px solid #cccccc;
+  border-radius: 1rem;
+  margin: 1.5rem;
+  padding: 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-bottom: 2rem;
+}
+
+.form-post-title {
+  font-size: 1.375rem;
+  font-weight: 700;
+  margin: 0 0 1.5rem 0;
+}
+
+.input-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+}
+
+.form-post-input {
+  color: black;
+  width: 96%;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  border: 1px solid #777777;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  margin-bottom: 1.5rem;
+  font-family: inherit;
+}
+.form-post-textarea {
+  padding-left: 1rem;
+  color: black;
+  width: 96%;
+  resize: none;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  border: 1px solid #777777;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  margin-bottom: 1.5rem;
+  font-family: inherit;
+  min-width: 300px;
+  max-width: 100%;
+}
+
+.form-post-input::placeholder,
+.form-post-textarea::placeholder {
+  color: #cccccc;
+}
+
+.form-post-button {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.form-post-submit {
+  background-color: #7695ec;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+}
+
+.form-post-submit:disabled {
+  background-color: #c4c4c4;
+  cursor: not-allowed;
+}

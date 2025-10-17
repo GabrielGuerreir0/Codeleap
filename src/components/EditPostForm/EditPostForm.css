@@ -1,0 +1,42 @@
+.edit-title {
+  font-size: 1.3rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.edit-form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.edit-form-container label {
+  margin-top: 0.5rem;
+}
+
+.edit-form-container input,
+.edit-form-container textarea {
+  width: 96%;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #777777;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 0.9rem;
+  color: black;
+  background-color: transparent;
+}
+
+.edit-form-container textarea {
+  resize: none;
+}
+
+.save-button {
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 8px;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  background-color: #47b960;
+  color: white;
+  border: none;
+}

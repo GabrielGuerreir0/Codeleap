@@ -1,0 +1,39 @@
+.delete-confirmation {
+  width: 660px;
+  height: 146px;
+  display: flex;
+  flex-direction: column;
+}
+
+.delete-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  height: 140px;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.cancel-button,
+.confirm-delete-button {
+  color: black;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 8px;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  border: 1px solid #999999;
+  background-color: white;
+}
+
+.confirm-delete-button {
+  background-color: #ff5151;
+  color: white;
+  border: none;
+}

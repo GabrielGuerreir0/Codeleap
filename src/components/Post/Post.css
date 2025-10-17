@@ -1,0 +1,81 @@
+.post {
+  margin: 0 1.5rem;
+  border: 1px solid var(--cor-cinza1);
+  border-radius: 1rem;
+  margin-bottom: 1.5rem;
+}
+.action-button {
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+.action-button:hover {
+  cursor: pointer;
+}
+.action-button img {
+  width: 31px;
+  height: 30px;
+}
+.post-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--cor-principal);
+  border-radius: 1rem 1rem 0 0;
+  border-bottom: 1px solid var(--cor-cinza1);
+  padding-left: 1.5rem;
+  padding-right: 1.3rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  height: 1rem;
+}
+.post-title {
+  font-size: 1.375rem;
+}
+.post-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-delete {
+  width: 1.95rem;
+  height: 1.875rem;
+  cursor: pointer;
+}
+.post-edit {
+  width: 1.95rem;
+  height: 1.875rem;
+  cursor: pointer;
+}
+.post-info {
+  display: flex;
+  justify-content: space-between;
+  height: 1.125rem;
+  margin-bottom: 1rem;
+}
+.post-body {
+  padding: 1.5rem;
+}
+
+.post-author {
+  color: var(--cor-cinza);
+  font-size: 1.125rem;
+  margin: 0;
+}
+.author {
+  font-weight: bold;
+}
+.post-time {
+  color: var(--cor-cinza);
+  margin: 0;
+}
+
+.post-paragraph {
+  margin-bottom: 24px;
+  line-height: 1.5;
+  color: var(--cor-preto);
+  font-size: 1.125rem;
+}

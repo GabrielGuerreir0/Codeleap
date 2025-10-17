@@ -1,0 +1,21 @@
+.page {
+  display: grid;
+  grid-template-columns: 1fr 50rem 1fr;
+  height: 100vh;
+}
+.container {
+  grid-column: 2;
+  background-color: var(--cor-branco);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.title {
+  margin: 0;
+  font-size: 1.375rem;
+  margin-left: 2.3125rem;
+}
+.header {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  background-color: var(--cor-principal);
+}
