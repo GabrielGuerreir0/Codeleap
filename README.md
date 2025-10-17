@@ -49,6 +49,9 @@ Aplicação de feed de posts que permite: login simples, criação, edição e e
 5. Build para produção:
    npm run build
 
+6. Pré-visualizar o resultado do projeto
+   npm run preview
+
 ## Estrutura do projeto (principais arquivos)
 
 - src/
